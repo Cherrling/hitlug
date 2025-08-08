@@ -13,7 +13,9 @@ hero:
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples
-
+  image:
+    src: "/Frame 14-2 1.svg"
+    alt: HITLUG LOGO
 features:
   # - title: Feature A
   #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -22,4 +24,3 @@ features:
   # - title: Feature C
   #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
