@@ -6,11 +6,9 @@ export default defineConfig({
   description: "HITLUG Offical Webpage",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
-    ],
-
+    nav: [{ text: "Home", link: "/" }],
+    logo: "logo.svg",
+    siteTitle: "Linux 开源学生社团",
     sidebar: [
       // {
       //   text: 'Examples',
