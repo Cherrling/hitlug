@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "HIT LUG"
-  text: "Stay FREE, Stay OPEN"
-  tagline: 哈尔滨工业大学 Linux 开源学生俱乐部
+  name: "HITLUG"
+  text: "哈尔滨工业大学 Linux 开源学生社团"
+  tagline: Linux User Group @ Harbin Institute of Technology
   actions:
     - theme: brand
       text: 了解更多
@@ -14,7 +14,7 @@ hero:
     #   text: API Examples
     #   link: /api-examples
   image:
-    src: "/Frame 14-2 1.svg"
+    src: "/logo.svg"
     alt: HITLUG LOGO
 features:
   # - title: Feature A
