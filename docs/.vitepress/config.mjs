@@ -1,14 +1,14 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "HIT LUG",
-  description: "HIT LUG Offical Webpage",
+  title: "HITLUG",
+  description: "HITLUG Offical Webpage",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: "Home", link: "/" },
+      { text: "Examples", link: "/markdown-examples" },
     ],
 
     sidebar: [
@@ -20,13 +20,11 @@ export default defineConfig({
       //   ]
       // }
       {
-        text: 'Homepage',
-        link: '/homepage',
-      }
+        text: "关于我们",
+        link: "/about",
+      },
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
-})
+    socialLinks: [{ icon: "github", link: "https://github.com/hitlug" }],
+  },
+});
