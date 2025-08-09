@@ -9,24 +9,32 @@ export default defineConfig({
     nav: [{ text: "Home", link: "/" }],
     logo: "logo.svg",
     siteTitle: "Linux 开源学生社团",
-    sidebar: [
-      {
-        text: "关于我们",
-        link: "/about",
-      },
-      {
-        text: "活动情况",
-        items: [{ text: "技术交流企划", link: "/techex.md" }],
-      },
-      {
-        text: "站点共建",
-        link: "/contribute",
-      },
-      {
-        text: "新闻列表",
-        link: "/news.md",
-      },
-    ],
+    sidebar: {
+      "/": [
+        {
+          text: "关于我们",
+          link: "/about",
+        },
+        {
+          text: "活动情况",
+          items: [{ text: "技术交流企划", link: "/techex.md" }],
+        },
+        {
+          text: "站点共建",
+          link: "/contribute",
+        },
+        {
+          text: "新闻列表",
+          link: "/news.md",
+        },
+      ],
+      "/news/": [
+        {
+          text: "新闻列表",
+          link: "/news.md",
+        },
+      ],
+    },
     footer: {
       message: "Welcome to HITLUG!",
       copyright:
