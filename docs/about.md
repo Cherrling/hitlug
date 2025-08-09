@@ -22,5 +22,6 @@
 
 ## 联系方式
 
+- 社团网站：[校外站](https://hitlug.org)， [校内站](https://lug.hit.edu.cn)
 - GitHub：[hitlug](https://github.com/hitlug), [link](https://qm.qq.com/q/HuccTwylGO)
 - HITLUG Offtopic（水群）群号：598884848
