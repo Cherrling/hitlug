@@ -27,6 +27,11 @@ export default defineConfig({
         link: "/news.md",
       },
     ],
+    footer: {
+      message: "Welcome to HITLUG!",
+      copyright:
+        'Copyright © 2025 HITLUG. Licensed under the <a href="https://creativecommons.org/licenses/by/4.0/deed.zh-hans">CC BY 4.0 International</a> License.',
+    },
     socialLinks: [{ icon: "github", link: "https://github.com/hitlug" }],
   },
 });
