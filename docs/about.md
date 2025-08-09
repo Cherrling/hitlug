@@ -14,7 +14,7 @@
 
 - [哈尔滨工业大学开源镜像站](https://mirrors.hit.edu.cn/)
   - [镜像站问题反馈和镜像请求](https://github.com/hitlug/issues)
-- [哈尔滨工业大学 GitLab 服务](https://git.hit.edu.cn/)（无公网访问）
+- [哈尔滨工业大学 GitLab 服务](https://git.hit.edu.cn/)（无公网访问，仅校内可用）
 
 ## 社团章程
 
